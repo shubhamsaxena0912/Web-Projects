@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Game</title>
+    <link href="Color Game.css" type="text/css" rel="stylesheet">
+</head>
+<body onload="startGame()">
+
+    <div>
+        <h1>THE GREAT <br> <span id="colorDisplay">RGB</span> <br> COLOR GAME</h1>
+    </div>
+    <div class="infoDiv">
+        <button id="startGame" class="startGame">New Colors</button>
+        <span id="message"></span>
+        <button id="easy">Easy</button>
+        <button id="hard" class="selected">Hard</button>
+    </div>
+
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <script src="Color Game.js"></script>
+</body>
+</html>
